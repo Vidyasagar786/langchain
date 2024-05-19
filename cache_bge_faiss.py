@@ -1,7 +1,7 @@
 import os
 import numpy as np
 import faiss
-os.environ['MONGODB_URI'] = 'mongodb://localhost:27017/?readPreference=primary&appname=MongoDB%20Compass&directConnection=true&ssl=false'
+os.environ['MONGODB_URI'] = 'your mongodb url here'
 from dotenv import load_dotenv
 from langchain_community.embeddings import HuggingFaceBgeEmbeddings
 from langchain.chat_models import AzureChatOpenAI
